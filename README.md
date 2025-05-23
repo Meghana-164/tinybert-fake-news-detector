@@ -44,7 +44,7 @@ An interactive GUI built using **Streamlit** allows users to:
 - Click a button to classify the input  
 - See if it's **Real** or **Fake** with a confidence score
 
-![Streamlit Preview]("UIsnap.png") 
+![UI snapshot]("UIsnap.png") 
 
 ---
 
