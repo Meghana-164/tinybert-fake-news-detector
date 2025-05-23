@@ -3,15 +3,15 @@
 
 This project is a **Fake News Detection system** that classifies tech-related news content as either **Real** or **Fake** using **TinyBERT embeddings** and a **Logistic Regression classifier**. It includes a clean **Streamlit** UI for interactive use and achieves an accuracy of **94%**.
 
-## 🚀 Why TinyBERT instead of TF-IDF?
+## Why TinyBERT instead of TF-IDF?
 
 Traditional approaches like TF-IDF are useful for capturing word frequency, but they **fail to preserve contextual meaning**. TinyBERT, a lightweight version of BERT, offers the following advantages:
-- ✅ **Context-aware embeddings**: Understands semantics, not just word counts.
-- ✅ **Compact size**: Much faster and more memory-efficient than full BERT.
-- ✅ **Transfer learning**: Pre-trained on a large corpus, capturing complex linguistic features.
-- ✅ **Better performance**: Demonstrated a substantial accuracy boost (~94%) compared to TF-IDF baselines (~85–87%).
+-  **Context-aware embeddings**: Understands semantics, not just word counts.
+-  **Compact size**: Much faster and more memory-efficient than full BERT.
+-  **Transfer learning**: Pre-trained on a large corpus, capturing complex linguistic features.
+-  **Better performance**: Demonstrated a substantial accuracy boost (~94%) compared to TF-IDF baselines (~85–87%).
 
-## 🗂 Dataset Overview
+##  Dataset Overview
 
 The dataset consists of:
 - `Fake.csv` — 100% fabricated news articles.
@@ -28,7 +28,7 @@ All records are concatenated, shuffled, cleaned, and used for training.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 1. **Data Cleaning**: Removed stopwords, symbols, and punctuation.  
 2. **Embedding**: TinyBERT (`prajjwal1/bert-tiny`) used to generate contextual sentence embeddings.  
@@ -59,7 +59,7 @@ bert_tiny_model/
 app.py (Streamlit UI script)
 ```
 
-### 🧪 Setup Environment
+###  Setup Environment
 
 1. Create a virtual environment (recommended):
 ```bash
@@ -72,7 +72,7 @@ source fake-news-env/bin/activate  # or .\fake-news-env\Scripts\activate on Wind
 pip install torch==2.2.2 streamlit numpy pandas scikit-learn transformers nltk joblib
 ```
 
-> ⚠️ **Important on Torch Version Compatibility**
+> ⚠ **Important on Torch Version Compatibility**
 >
 > - If you're using **Python 3.12**, install `torch==2.2.2`  
 > - If deploying in **Streamlit Cloud (uses Python 3.13)**, use `torch==2.7.0`  
@@ -91,9 +91,9 @@ streamlit run app.py
 
 ## 📈 Performance
 
-- ✅ Accuracy: **94%**
-- ✅ Lightweight BERT usage
-- ✅ Fast classification with Logistic Regression
+-  Accuracy: **94%**
+-  Lightweight BERT usage
+-  Fast classification with Logistic Regression
 
 ---
 
