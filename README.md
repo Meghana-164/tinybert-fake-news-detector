@@ -89,6 +89,12 @@ streamlit run app.py
 
 ---
 
+## 🌐 Live Demo
+
+🔗 [Click here to try the Fake News Detector on Streamlit](https://gaihfsghdjwircs3rnoqtu.streamlit.app/)
+
+---
+
 ## 📈 Performance
 
 -  Accuracy: **94%**
