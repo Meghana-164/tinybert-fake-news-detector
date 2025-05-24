@@ -94,6 +94,14 @@ streamlit run app.py
 🔗 [Click here to try the Fake News Detector on Streamlit](https://gaihfsghdjwircs3rnoqtu.streamlit.app/)
 
 ---
+## 🎥 Video Demo
+
+You can watch the demo video below:
+
+
+➡️ [Click here to watch the video](https://github.com/Meghana-164/tinybert-fake-news-detector/blob/main/FAKE%20NEWS%20DETECTOR%20%C2%B7%20Streamlit%20-%20Google%20Chrome%202025-05-24%2009-53-31.mp4)
+
+---
 
 ## 📈 Performance
 
