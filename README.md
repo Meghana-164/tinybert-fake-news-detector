@@ -75,7 +75,7 @@ pip install torch==2.2.2 streamlit numpy pandas scikit-learn transformers nltk j
 > ⚠ **Important on Torch Version Compatibility**
 >
 > - If you're using **Python 3.12**, install `torch==2.2.2`  
-> - If deploying in **Streamlit Cloud (uses Python 3.13)**, use `torch==2.7.0`  
+> - If you're using Python 3.13**, use `torch==2.7.0`  
 >
 > Find the correct version for your setup: https://pytorch.org/get-started/locally/
 
